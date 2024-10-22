@@ -345,7 +345,7 @@ body {
 
     .btn-group {
         align-content: center;
-        transform: translate(-25px, -215px);
+        transform: translate(-25px, -210px);
         display: flex;
         flex-direction: row;
         margin-top: 65px;
@@ -381,7 +381,7 @@ body {
 
     .form-box .qr-code {
         max-width: 240px;
-        transform: translate(-8px, -10px);
+        transform: translate(-8px, -8px);
     }
 
     .qr1, .qr2, .qr3 {
