@@ -332,10 +332,10 @@ body {
 
     .backbtn {
         width: 100px;
-        height: 30px;
+        height: 20px;
         font-family: 'Open Sauce Regular';
         font-weight: bold;
-        font-size: 9px;
+        font-size: 8.5px;
         color: #fff;
         border-radius: 30px;
         background: #e4a103;
