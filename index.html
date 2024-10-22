@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport"
+    content="width=device-width,
+    intitial-scale=1.0" />
+    <title>3PDI DONATION CHANNEL</title> 
+    <link rel="stylesheet" href="stylesheet.css" />
+    <style>
+      #GcashAcc {
+        display: none;
+      }
+      #BdoAcc {
+        display: none;
+      }
+      #BpiAcc {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body> 
+    <div id="rectangle" style="width:100%; height:100vh; background-color:rgba(0, 0, 86, 0.564)">
+    </div>
+    <div class="form-popup">
+      <div class="form-box">
+        <div class="form-details">
+          <img src="3PDI.png">
+          <h1>Our </br>Donation </br>Channels</h1>
+          <button href="/" class="backbtn">Back to website</button>
+        </div>
+        <div class="form-content">
+          <div class="btn-group" >
+            <button class="button1" onclick="showGCASH()" id="GCASH">
+              <img src="Bank-Logos/gcash.png">
+            </button>
+            <button class="button2" onclick="showBDO()" id="BDO">
+              <img src="Bank-Logos/bdo.png">
+            </button>
+            <button class="button3" onclick="showBPI()" id="BPI">
+              <img src="Bank-Logos/bpi.png">
+            </button>
+          </div>
+        </div>
+        <div class="qr-code">
+          <img class="qr1" id="GcashAcc" src="QR-Codes/GCashQR.png">
+          <img class="qr2" id="BdoAcc" src="QR-Codes/BDOQR.png">
+          <img class="qr3" id="BpiAcc" src="QR-Codes/BPIQR.png">
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function showGCASH() {
+        document.getElementById('GcashAcc')
+          .style.display = "block";
+        document.getElementById('BdoAcc')
+          .style.display = "none";
+        document.getElementById('BpiAcc')
+          .style.display = "none";
+      }
+      function showBDO() {
+        document.getElementById('BdoAcc')
+          .style.display = "block";
+        document.getElementById('GcashAcc')
+          .style.display = "none";
+        document.getElementById('BpiAcc')
+          .style.display = "none";
+      }
+      function showBPI() {
+        document.getElementById('BpiAcc')
+          .style.display = "block";
+        document.getElementById('GcashAcc')
+          .style.display = "none";
+        document.getElementById('BdoAcc')
+          .style.display = "none";
+      }
+    </script>
+  </body>
+</html>
