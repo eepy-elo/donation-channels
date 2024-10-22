@@ -322,7 +322,7 @@ body {
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
-        transform: translate(0px, -10px)
+        transform: translate(0px, -12px)
     }
 
     .form-box .form-content {
