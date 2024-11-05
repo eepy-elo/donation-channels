@@ -100,7 +100,7 @@ body {
 }
 
 .btn-group button:hover {
-    transform: scale(1.2);
+    transform: scale(1.03);
 }
 
 .button1, .button2, .button3 {
@@ -256,7 +256,7 @@ body {
         display: flex;
         justify-content: space-between;
         margin-top: 65px;
-        transform: translate(5px, -215px);
+        transform: translate(6px, -215px);
     }
 
     .button1, .button2, .button3 {
