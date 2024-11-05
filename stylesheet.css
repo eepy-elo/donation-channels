@@ -100,7 +100,7 @@ body {
 }
 
 .btn-group button:hover {
-    border-color: #000;
+    transform: scale(1.2);
 }
 
 .button1, .button2, .button3 {
