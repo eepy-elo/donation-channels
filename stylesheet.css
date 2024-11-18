@@ -156,7 +156,7 @@ body {
     transition-delay: 0.1s;
 }
 
-#GcashAcc, #BdoAcc, #BpiAcc {
+#GcashAcc, #RcbcAcc, #BpiAcc {
     width: 18rem;
     margin-left: 5%;
     transform: translate(190%, 0%);
@@ -202,7 +202,7 @@ body {
         width: 8rem;
     }
 
-    #GcashAcc, #BdoAcc, #BpiAcc {
+    #GcashAcc, #RcbcAcc, #BpiAcc {
         width: 13rem;
     }
 }
@@ -282,7 +282,7 @@ body {
         transition-delay: 0.2s;
     }
 
-    #GcashAcc, #BdoAcc, #BpiAcc {
+    #GcashAcc, #RcbcAcc, #BpiAcc {
         height: 23rem;
         width: 14rem;
         transform: translate(18px, 230px);
