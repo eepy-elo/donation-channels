@@ -27,7 +27,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background: url("https://ph.usembassy.gov/wp-content/uploads/sites/24/2024/07/07-10-2024-PR-New-Batch-of-U.S.-Peace-Corps-Volunteers-Arrives-in-the-Philippines-scaled.jpg") center / cover no-repeat;
+    background: url("banner.png") center / cover no-repeat;
 }
 
 .form-details img {
